@@ -1,0 +1,14 @@
+### Test OpenAI API with homecookrecipes API endpoint
+POST http://localhost:3000/api/recipes
+Content-Type: application/json
+
+   [ 
+    {
+        "content": "You are homecook. Give List of 5 recipes as a list with Recipe name and single sentence description. ",
+        "role": "system"
+        },
+        {
+        "content": "Meat, Dessert, cupcake",
+        "role": "user"
+    }
+   ]
