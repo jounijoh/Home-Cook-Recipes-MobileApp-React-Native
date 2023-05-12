@@ -2,8 +2,11 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RouteProp } from '@react-navigation/native'
 
 export type Recipe = {
+  userId?: string,
   name: string,
   description: string
+  instructions?: string
+  shoppingList?: string
 }
 
 export type StackParamList = {
