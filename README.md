@@ -1,13 +1,13 @@
 # HomeCookBot Mobile Application
 
 ## Overview
-This project is a mobile application developed using React Native. It utilizes a modern, user-friendly navigation system and various screens to deliver a seamless user experience. The app includes authentication, home, profile, recipe tabs, instructions for and favorite recipes features, along with a settings option to log out.
+This project is a mobile application for generating repes with OpenAi's ChatGPT API. Repository for backend is found [here](https://github.com/jounijoh/HomeCookBot). It is developed using React Native. It utilizes a modern, user-friendly navigation system and various screens to deliver a seamless user experience. The app includes authentication, home, profile, recipe tabs, instructions for and favorite recipes features, along with a settings option to log out.
 
 ## Main Features
 - **User Authentication**: SignIn and SignUp functionalities.
 - **Home Screen**: The initial screen displaying the app's main content.
 - **Profile Screen**: A user-specific screen showcasing user details.
-- **Recipes Tabs**: Tabs that categorize and display various recipes.
+- **Recipes Tabs**: Tabs where you can genenerate recipes with keywords, get intsturctions and make shoppinglists for selected recipes.
 - **Favorite Recipes Tabs**: A dedicated section for users to save and view their favorite recipes.
 - **Settings**: A slide-up modal with log-out functionality.
 
@@ -27,5 +27,3 @@ This project is a mobile application developed using React Native. It utilizes a
 3. **Settings**: Accessible through an icon, offering a log-out option via a modal.
 4. **Explore**: Browse through the recipes tabs and save your favorites for easy access.
 
-## Conclusion
-This application serves as a comprehensive platform for users to explore, save, and manage recipes with a secure authentication system and a sleek, user-friendly interface.
